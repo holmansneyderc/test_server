@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/bin/index.html'));
 });
 
-app.listen(8080,'200.69.103.101',function(){
+app.listen(8080,'0.0.0.0',function(){
 	 console.log('hola mundo ');
 })
